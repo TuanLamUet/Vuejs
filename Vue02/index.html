@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+      <!-- <li v-for="item in khoaHoc">{{ item }}</li> -->
+      <!-- <template v-for="item in khoaHoc">
+        <h1>Khóa học</h1>
+        <p>{{item}}</p>
+      </template> -->
+      <p v-show="showVietPro">VietPro</p>
+      <p v-if="vuejs">VUE</p>
+      <p v-else="nodejs">NODE</p>
+
+    </div>
+
+    <script src ="../vue.min.js"></script>
+    <script src="app.js"> </script>
+</body>
+</html>
